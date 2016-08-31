@@ -138,7 +138,6 @@ alias ps='ps --sort=start_time'
 EDITOR='/usr/bin/vim'
 
 git config --global user.name "Knot-found"
-git config --global user.email "masakinishime8522@outlook.jp"
 
 git config --global core.editor 'vim -c "set fenc=utf-8"'
 
