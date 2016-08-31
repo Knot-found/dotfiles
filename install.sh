@@ -1,9 +1,11 @@
 #!/bin/bash
 
-for f in .??*
-do
-	[[ "$f" == ".git" ]] && continue
-	[[ "$f" == ".DS_Store" ]] && continue
+cd $(dirname $0)
 
-	echo "$f"
+for dotfile in .?*; do
+	[[ "$dotfile" == ".git" ]] && continue
+	[[ "$dotfile" == ".DS_Store" ]] && continue
+
+	echo "$dotfiles"
+	ln -Fis "$PWD/$dotfile" $HOME
 done
