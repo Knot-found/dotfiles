@@ -1,0 +1,20 @@
+map h <C-Pageup>
+map l <C-PageDown>
+map ｈ <C-Pageup>
+map ｌ <C-PageDown>
+
+map H <Left>
+map L <Right>
+
+noremap j 5<C-e>h
+noremap k 5<C-y>
+nnoremap Y :js util.copyToClipboard(buffer.URL+buffer.title)
+noremap <C-a> i<C-a>
+ignoremap <C-a. <insert><C-a><insert>
+
+set complete=sl
+
+style! -name=commandline-ime chrome://* #liberator-commandline-command input {ime-mode: inactive;}
+
+echo "Loadad from vimperetorrc."
+
