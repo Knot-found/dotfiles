@@ -15,3 +15,5 @@ set shiftwidth=4
 "Visible tab & eol
 set list
 set listchars=tab:>-,trail:-,extends:>,precedes:<
+
+set fileencodings=utf-8,cp932,shift_jis
