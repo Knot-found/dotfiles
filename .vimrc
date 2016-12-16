@@ -21,9 +21,6 @@ set smartindent
 set list
 set listchars=tab:>-,trail:-,extends:>,precedes:<
 
-<<<<<<< Updated upstream
 set fileencodings=utf-8,cp932,shift_jis
-=======
 "文字コード
 set fileencodings=iso-2022-jp,cp932,sjis,euc-jp,utf-8
->>>>>>> Stashed changes
