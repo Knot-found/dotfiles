@@ -3,8 +3,11 @@ syntax on
 
 "カーソル位置の強調表示
 set cursorline
+highlight CursorColumn ctermbg=Green
+highlight CursorColumn ctermfg=Green
 set cursorcolumn
-
+highlight CursorLine ctermbg=Blue
+highlight CursorLine ctermfg=Blue
 
 "Enable line number
 set number
