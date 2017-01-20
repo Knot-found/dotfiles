@@ -1,13 +1,26 @@
+"ファイル名補完
+set wildmode=list:longest
 "Enable simple color scheme
 syntax on
 
+"Javaのハイライト
+set sm
+set ai
+let java_highlight_all=1
+let java_highlight_functions="style"
+let java_allow_cpp_keywords=1
+
+"JAVA自動補完(javacomplete)
+autocmd FileType java :setlocal omnifunc=javacomplete#Complete
+autocmd FileType java :setlocal completefunc=javacomplete#CompleteParamsInfo
+
 "カーソル位置の強調表示
-set cursorline
-highlight CursorColumn ctermbg=Green
-highlight CursorColumn ctermfg=Green
-set cursorcolumn
-highlight CursorLine ctermbg=Blue
-highlight CursorLine ctermfg=Blue
+"set cursorline
+"highlight CursorColumn ctermbg=Green
+"highlight CursorColumn ctermfg=Black
+"set cursorcolumn
+"highlight CursorLine ctermbg=Blue
+"highlight CursorLine ctermfg=Blue
 
 "Enable line number
 set number
