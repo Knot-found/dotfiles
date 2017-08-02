@@ -10,3 +10,5 @@ set showmatch   "閉じ括弧の入力時に対応する括弧を表示する
 set matchtime=3 "showmatchの表示時間
 set laststatus=2    "ステータスラインを常に表示する
 set mouse=a "どこでもマウスを利用可能にする
+set guifont=Ricty\ Diminished\ 12
+set guifontwide=Ricty\ Diminished\ 12
