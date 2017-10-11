@@ -29,7 +29,7 @@ setopt print_eight_bit
 
 bindkey -e
 
-PROMPT="%{[;32;1m%}[%n@%m] %~ %#%{[m%} "
+PROMPT="%{[;32;1m%}[%n@%m] %F{blue}[%~]%f %#%{[m%} "
 #PROMPT2="%_> "
 #RPROMPT="[%40<...<%~]"
 
